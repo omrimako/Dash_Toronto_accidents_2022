@@ -163,7 +163,6 @@ app.layout = html.Div(
                 html.Div(x_axis_dropdown, style={'flex': '1', 'textAlign': 'left'}),
                 html.Div(color_stack_dropdown, style={'flex': '1', 'textAlign': 'left'})
             ], style={'display': 'flex'}),
-            dcc.Checklist(['Filter Map-view'])
         ])
     ]
 )
