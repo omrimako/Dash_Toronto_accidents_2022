@@ -210,4 +210,4 @@ def update_contextual_graph_map(x_axis, color_stack, hideout, *filter_values):
     return fig, points_geojson_updated, hideout, [43.51, -79.2]  # Default center if no data
 
 if __name__ == "__main__":
-    app.run(debug=True, use_reloader=False, port=8054)
+    app.run(debug=True)
